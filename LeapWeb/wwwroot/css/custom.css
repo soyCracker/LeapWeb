@@ -1,0 +1,8 @@
+/*
+項目水平排列
+*/
+.dropdown-horizon > li{
+  display: inline-block;
+  min-width: unset !important;
+  width: 90px;
+}
