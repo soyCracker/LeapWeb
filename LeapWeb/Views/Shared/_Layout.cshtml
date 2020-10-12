@@ -12,7 +12,7 @@
     <!-- Favicons -->
     <!--<link href="~/estartup/assets/img/favicon.png" rel="icon">
     <link href="~/estartup/assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
-    <link href="~/assets/img/icon-32x32.png" rel="icon">
+    <link href="~/assets/img/icon.png" rel="icon">
     <link href="~/assets/img/icon-180x180.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -49,7 +49,7 @@
             <div id="logo" class="pull-left">
                 <!-- Uncomment below if you prefer to use an string logo -->
                 <!--<h1><a asp-area="" asp-controller="Home" asp-action="Index"><span>L</span>eap High</a></h1>-->
-                <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/assets/img/icon-75x45.png" alt="" title="" /></a>
+                <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/assets/img/icon-horizon.png" height="50" alt="" title="" /></a>
             </div>
 
             <nav id="nav-menu-container">
@@ -65,9 +65,9 @@
 
                             <li>
                                 支付服務
-                                <div><a href="#">愛金卡(iCash)</a></div>
-                                <div><a href="#">一卡通</a></div>
-                                <div><a href="#">悠遊卡</a></div>
+                                <div><a asp-area="" asp-controller="Home" asp-action="Epayment">愛金卡(iCash)</a></div>
+                                <div><a asp-area="" asp-controller="Home" asp-action="Epayment">一卡通</a></div>
+                                <div><a asp-area="" asp-controller="Home" asp-action="Epayment">悠遊卡</a></div>
                                 <div><a href="#">實體信用卡</a></div>
                                 <div><a href="#">線上刷卡</a></div>
                             </li>
@@ -83,7 +83,7 @@
                         </ul>
                     </li>
                     <li><a asp-area="" asp-controller="Home" asp-action="QandA">Q&A</a></li>
-                    <li><a href="#apply">開始申請</a></li>
+                    <li><a href="https://newpayment.wonlive.com.tw/MerchantDraft/Create/e1cae30bf657460da671b08cac2201cd">開始申請</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
         </div>
