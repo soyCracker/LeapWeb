@@ -1,9 +1,15 @@
 ﻿
 @charset "UTF-8";
 
-/* application_process Table Section
+/* Pricing Table Section
 --------------------------------*/
-#application_process .block-pricing {
+#horizon-pricing table {
+    border: 3px solid rgba(153, 153, 153, 0.3);
+}
+
+/* application-process block Section
+--------------------------------*/
+#application-process .block-pricing {
     background: #fff;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
@@ -12,55 +18,55 @@
 }
 
 @media (max-width: 991px) {
-    #application_process .block-pricing {
+    #application-process .block-pricing {
         margin-bottom: 30px;
     }
 }
 
-#application_process .block-pricing .table {
+#application-process .block-pricing .table {
     margin-bottom: 0;
     padding: 30px 15px;
     max-width: 100%;
     width: 100%;
 }
 
-#application_process .block-pricing .table h4 {
+#application-process .block-pricing .table h4 {
     padding-bottom: 30px;
 }
 
-#application_process .block-pricing h2 {
+#application-process .block-pricing h2 {
     margin-bottom: 30px;
 }
 
-#application_process .block-pricing ul {
+#application-process .block-pricing ul {
     list-style: outside none none;
     margin: 10px auto;
     max-width: 240px;
     padding: 0;
 }
 
-#application_process .block-pricing ul li {
+#application-process .block-pricing ul li {
     border-bottom: 1px solid rgba(153, 153, 153, 0.3);
     padding: 12px 0;
     text-align: center;
 }
 
-#application_process .block-pricing ul li b {
+#application-process .block-pricing ul li b {
     color: #3c4857;
 }
 
-#application_process .block-pricing .table .table_btn a {
+#application-process .block-pricing .table .table_btn a {
     background: #aa4d64;
     color: #fff;
     margin: 0;
     display: inline-block;
 }
 
-#application_process .block-pricing .table .table_btn a:hover {
+#application-process .block-pricing .table .table_btn a:hover {
     background: #55b03f;
 }
 
-#application_process .block-pricing .table .table_btn a .fa {
+#application-process .block-pricing .table .table_btn a .fa {
     font-size: 13px;
     margin-right: 5px;
 }
