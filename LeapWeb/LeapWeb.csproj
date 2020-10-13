@@ -5,8 +5,4 @@
     <UserSecretsId>7491b165-2325-4651-a7c1-5f936b090d1f</UserSecretsId>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\estartup\" />
-  </ItemGroup>
-
 </Project>
