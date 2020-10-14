@@ -99,3 +99,11 @@
   min-width: unset !important;
   width: 90px;
 }
+
+.video-poster-sample {
+    background: url(http://img.youtube.com/vi/p4DNioRXoTE/sddefault.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+}
