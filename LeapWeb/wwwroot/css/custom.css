@@ -1,6 +1,36 @@
 ﻿
 @charset "UTF-8";
 
+/* product-introduction Section
+--------------------------------*/
+#product-introduction img {
+    max-width: 100%;
+}
+
+#product-introduction .introduction-content h2 {
+    color: #252525;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 39px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+#product-introduction .introduction-content span {
+    font-weight: 700;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+#product-introduction .introduction-content ul li {
+    line-height: 36px;
+}
+
+#product-introduction .introduction-content ul li .fa {
+    padding-right: 20px;
+}
+
 /* Pricing Table Section
 --------------------------------*/
 #horizon-pricing table {
