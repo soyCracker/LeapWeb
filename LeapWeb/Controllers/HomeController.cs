@@ -38,10 +38,5 @@ namespace LeapWeb.Controllers
         {
             return View();
         }
-
-        public IActionResult Epayment()
-        {
-            return View();
-        }
     }
 }
