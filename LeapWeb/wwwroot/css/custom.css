@@ -100,7 +100,8 @@
   width: 90px;
 }
 
-.video-poster-sample {
+/*影片封面*/
+.epayment-video-poster {
     background: url(http://img.youtube.com/vi/p4DNioRXoTE/sddefault.jpg) center center;
     background-repeat: no-repeat;
     background-size: cover;
